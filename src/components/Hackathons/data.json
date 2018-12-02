@@ -1,0 +1,55 @@
+{
+  "title": "Hackathons",
+  "jobs": [
+    {
+      "title": "Embrace / Solidarity Marketplace",
+      "host": {
+        "name": "ThePort @ CERN",
+        "href": "http://theport.ch/"
+      },
+      "date": "Oct 2016",
+      "location": "Geneva, Switzerland",
+      "description": "An application that allowed people in disaster situations to ask for goods and services and volunteers to give such items."
+    },
+    {
+      "title": "Fast Flood / Real Time Diners",
+      "host": {
+        "name": "Restorando",
+        "href": "http://buenos-aires.restorando.com.ar/"
+      },
+      "date": "Jul 2016",
+      "location": "Buenos Aires, Argentina",
+      "description": "Real-time application for restaurants to accept last minute diners with no reservation."
+    },
+    {
+      "title": "Sadiki / Refugee personal assistant",
+      "host": {
+        "name": "New York University Abu Dhabi",
+        "href": "https://nyuad.nyu.edu/en/"
+      },
+      "date": "Apr 2016",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "description": "Facebook Messenger chatbot to help refugees. Lead the development team."
+    },
+    {
+      "title": "LocaTable / Crazy good table management",
+      "host": {
+        "name": "Restorando",
+        "href": "http://buenos-aires.restorando.com.ar/"
+      },
+      "date": "Dec 2015",
+      "location": "Buenos Aires, Argentina",
+      "description": "Map-Less Table Management with smart suggestions and real-time data."
+    },
+    {
+      "title": "Thor / Restaurant Site Generator",
+      "host": {
+        "name": "Restorando",
+        "href": "http://buenos-aires.restorando.com.ar/"
+      },
+      "date": "Aug 2015",
+      "location": "Buenos Aires, Argentina",
+      "description": "Automatically generate restaurant sites based on Restorando’s information and knowledge about restaurants."
+    }
+  ]
+}

@@ -3,7 +3,10 @@
   "jobs": [
     {
       "title": "Senior Front End Engineer",
-      "company": "HousingAnywhere.com",
+      "company": {
+        "name": "HousingAnywhere.com",
+        "href": "https://housinganywhere.com"
+      },
       "from": "Apr 2018",
       "to": "Present",
       "location": "Rotterdam, The Netherlands",
@@ -11,7 +14,10 @@
     },
     {
       "title": "Senior Front End Engineer & Team Leader",
-      "company": "Medallia",
+      "company": {
+        "name": "Medallia",
+        "href": "https://medallia.com/"
+      },
       "from": "Nov 2016",
       "to": "Apr 2018",
       "location": "Buenos Aires, Argentina",
@@ -19,7 +25,10 @@
     },
     {
       "title": "Senior Full Stack Developer & Team Leader",
-      "company": "Restorando",
+      "company": {
+        "name": "Restorando",
+        "href": "https://buenos-aires.restorando.com.ar/"
+      },
       "from": "Aug 2014",
       "to": "Nov 2016",
       "location": "Buenos Aires, Argentina",
@@ -27,7 +36,10 @@
     },
     {
       "title": "Full Stack Developer",
-      "company": "FDV Solutions",
+      "company": {
+        "name": "FDV Solutions",
+        "href": "https://intive-fdv.com/"
+      },
       "from": "Jul 2013",
       "to": "Aug 2014",
       "location": "Buenos Aires, Argentina",
@@ -35,7 +47,10 @@
     },
     {
       "title": "Full Stack Developer",
-      "company": "G&L Group",
+      "company": {
+        "name": "G&L Group",
+        "href": "https://www.gylgroup.com/en/"
+      },
       "from": "Dec 2012",
       "to": "Jul 2013",
       "location": "Buenos Aires, Argentina",

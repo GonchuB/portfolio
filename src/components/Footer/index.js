@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import data from './data.json'
+import data from './data.json';
 
 const Footer = ({ data }) => (
   <div id="footer">
@@ -8,7 +8,11 @@ const Footer = ({ data }) => (
       <ul className="icons">
         {data.social.map(channel => (
           <li key={channel.label}>
-            <a href={channel.href} className={`icon ${channel.icon}`}>
+            <a
+              href={channel.href}
+              className={`icon ${channel.icon}`}
+              aria-label={channel.ariaLabel}
+            >
               <span className="label">{channel.label}</span>
             </a>
           </li>
@@ -16,6 +20,6 @@ const Footer = ({ data }) => (
       </ul>
     </div>
   </div>
-)
+);
 
-export default () => Footer({ data })
+export default () => Footer({ data });

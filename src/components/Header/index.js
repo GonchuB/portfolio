@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-import Footer from '../Footer'
-import avatar from '../../assets/images/avatar.jpeg'
+import Footer from '../Footer';
+import avatar from '../../assets/images/avatar.jpg';
 
-import data from './data.json'
+import data from './data.json';
 
 const Header = ({ data }) => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
+      <div className="image avatar">
         <img src={avatar} alt="" />
-      </a>
+      </div>
       <h1>
         <strong>{data.name}</strong>
         {data.description}
@@ -20,6 +20,6 @@ const Header = ({ data }) => (
     </div>
     <Footer />
   </header>
-)
+);
 
-export default () => Header({ data })
+export default () => Header({ data });

@@ -6,13 +6,13 @@ const Experience = ({ data: { title, jobs } }) => (
   <section id="experience">
     <h2>{title}</h2>
 
-    {jobs.map(({ title, company, from, to, description }, index) => (
+    {jobs.map(({ title, host, date, description }, index) => (
       <>
-        {index !== 0 && <hr key={`separator-${company.name}`} />}
-        <article key={company.name}>
+        {index !== 0 && <hr key={`separator-${title}`} />}
+        <article key={title}>
           <h3>{title}</h3>
           <div>
-            <a href={company.href}>{company.name}</a> / {from} - {to}
+            <a href={host.href}>{host.name}</a>. {date}
           </div>
           <p>{description}</p>
         </article>

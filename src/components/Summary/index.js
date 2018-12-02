@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import data from './data.json'
+import data from './data.json';
 
 const Header = ({ data: { title, description } }) => (
   <section id="summary">
@@ -9,6 +9,6 @@ const Header = ({ data: { title, description } }) => (
     </header>
     <p>{description}</p>
   </section>
-)
+);
 
-export default () => Header({ data })
+export default () => Header({ data });

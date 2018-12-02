@@ -1,0 +1,27 @@
+{
+  "title": "Education",
+  "education": [
+    {
+      "degree": "Computer Science Engineering",
+      "place": {
+        "name": "University of Buenos Aires",
+        "href": "http://www.fi.uba.ar/"
+      },
+      "from": "2010",
+      "to": "2016",
+      "location": "Buenos Aires, Argentina",
+      "description": "PGA: 7.9/10"
+    },
+    {
+      "degree": "Bilingual Baccalaureate, Natural Sciences",
+      "place": {
+        "name": "Belgrano Day School",
+        "href": "http://www.bds.edu.ar/en/"
+      },
+      "from": "1995",
+      "to": "2009",
+      "location": "Buenos Aires, Argentina",
+      "description": "PGA: 8/10. GCSE International examinations on mathematics and information technology (graded A)."
+    }
+  ]
+}
