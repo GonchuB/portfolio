@@ -1,0 +1,45 @@
+{
+  "title": "Experience",
+  "jobs": [
+    {
+      "title": "Senior Front End Engineer",
+      "company": "HousingAnywhere.com",
+      "from": "Apr 2018",
+      "to": "Present",
+      "location": "Rotterdam, The Netherlands",
+      "description": "Implementing new features and optimizing performance on high traffic parts of the platform. Shaping the architecture of the React app while continually raising the quality bar of the codebase."
+    },
+    {
+      "title": "Senior Front End Engineer & Team Leader",
+      "company": "Medallia",
+      "from": "Nov 2016",
+      "to": "Apr 2018",
+      "location": "Buenos Aires, Argentina",
+      "description": "Leader of one of Argentina’s front end teams. We developed high-performance apps for the worlds best customer experience SaaS product. Using React, Redux, node, and other cutting-edge technologies. Always shipping high quality and performant code to meet very high customer demands."
+    },
+    {
+      "title": "Senior Full Stack Developer & Team Leader",
+      "company": "Restorando",
+      "from": "Aug 2014",
+      "to": "Nov 2016",
+      "location": "Buenos Aires, Argentina",
+      "description": "Full stack developer of SaaS oriented solutions. Worked with high standards of development and product quality. Team leader for the SaaS team, helping shape both product and people. Always trying to help my team solve complex tasks and meet roadmap goals on time."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "FDV Solutions",
+      "from": "Jul 2013",
+      "to": "Aug 2014",
+      "location": "Buenos Aires, Argentina",
+      "description": "Full stack developer using the MEAN stack (MongoDB, Express, Angular, Node). Developed a multimedia platform for a US client."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "G&L Group",
+      "from": "Dec 2012",
+      "to": "Jul 2013",
+      "location": "Buenos Aires, Argentina",
+      "description": "Full stack developer using Angular, Phonegap and Java Enterprise in the R&D team. Developed a prototype app for bank automation."
+    }
+  ]
+}

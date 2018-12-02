@@ -1,0 +1,24 @@
+{
+  "social": [
+    {
+      "href": "https://medium.com/@gonchub",
+      "icon": "fa-medium",
+      "label": "Medium"
+    },
+    {
+      "href": "https://twitter.com/GonchuB",
+      "icon": "fa-twitter",
+      "label": "Twitter"
+    },
+    {
+      "href": "https://github.com/GonchuB",
+      "icon": "fa-github",
+      "label": "Github"
+    },
+    {
+      "href": "mailto:gonchu.b@gmail.com",
+      "icon": "fa-envelope",
+      "label": "Email"
+    }
+  ]
+}
