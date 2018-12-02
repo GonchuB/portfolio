@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import data from './data.json';
 
@@ -12,7 +13,8 @@ const Education = ({ data: { title, education } }) => (
         <article key={degree}>
           <h3>{degree}</h3>
           <div>
-            <a href={place.href}>{place.name}</a> / {from} - {to}
+            <OutboundLink href={place.href}>{place.name}</OutboundLink> / {from}{' '}
+            - {to}
           </div>
           <p>{description}</p>
         </article>

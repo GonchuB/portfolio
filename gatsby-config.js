@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: 'Gatsby Starter - Strata by HTML5 UP',
+    author: 'Hunter Chang',
+    description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-17495033-4',
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
   ],
-}
+};

@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import data from './data.json';
 
@@ -8,13 +9,13 @@ const Footer = ({ data }) => (
       <ul className="icons">
         {data.social.map(channel => (
           <li key={channel.label}>
-            <a
+            <OutboundLink
               href={channel.href}
               className={`icon ${channel.icon}`}
               aria-label={channel.ariaLabel}
             >
               <span className="label">{channel.label}</span>
-            </a>
+            </OutboundLink>
           </li>
         ))}
       </ul>
