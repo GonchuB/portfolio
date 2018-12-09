@@ -8,9 +8,9 @@ const Education = ({ data: { title, education } }) => (
     <h2>{title}</h2>
 
     {education.map(({ degree, place, from, to, description }, index) => (
-      <>
-        {index !== 0 && <hr key={`separator-${degree}`} />}
-        <article key={degree}>
+      <React.Fragment key={degree}>
+        {index !== 0 && <hr />}
+        <article>
           <h3>{degree}</h3>
           <div>
             <OutboundLink href={place.href}>{place.name}</OutboundLink> / {from}{' '}
@@ -18,7 +18,7 @@ const Education = ({ data: { title, education } }) => (
           </div>
           <p>{description}</p>
         </article>
-      </>
+      </React.Fragment>
     ))}
   </section>
 );

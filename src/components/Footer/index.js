@@ -9,11 +9,7 @@ const Footer = ({ data }) => (
       <ul className="icons">
         {data.social.map(channel => (
           <li key={channel.label}>
-            <OutboundLink
-              href={channel.href}
-              className={`icon ${channel.icon}`}
-              aria-label={channel.ariaLabel}
-            >
+            <OutboundLink href={channel.href} aria-label={channel.ariaLabel}>
               <span className="label">{channel.label}</span>
             </OutboundLink>
           </li>

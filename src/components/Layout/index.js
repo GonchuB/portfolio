@@ -5,14 +5,13 @@ import '../../assets/scss/main.scss';
 import Header from '../Header';
 import data from './data.json';
 
-const Layout = ({ children, data: { title, description, noscript } }) => (
+const Layout = ({ children, data: { title, description } }) => (
   <>
     <Helmet>
+      <html lang="en" />
       <title>{title}</title>
       <meta name="description" content={description} />
     </Helmet>
-
-    <noscript>{noscript}</noscript>
 
     <Header />
 

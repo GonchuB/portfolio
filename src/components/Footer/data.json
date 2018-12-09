@@ -2,25 +2,21 @@
   "social": [
     {
       "href": "https://medium.com/@gonchub",
-      "icon": "fa-medium",
       "label": "Medium",
       "ariaLabel": "Follow me on Medium"
     },
     {
       "href": "https://www.linkedin.com/in/gonzalobeviglia/",
-      "icon": "fa-linkedin",
       "label": "LinkedIn",
       "ariaLabel": "Join my professional network"
     },
     {
       "href": "https://twitter.com/GonchuB",
-      "icon": "fa-twitter",
       "label": "Twitter",
       "ariaLabel": "Follow me on Twitter"
     },
     {
       "href": "https://github.com/GonchuB",
-      "icon": "fa-github",
       "label": "Github",
       "ariaLabel": "Check out my Github account"
     }
