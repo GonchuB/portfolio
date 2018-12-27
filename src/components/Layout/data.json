@@ -1,5 +1,8 @@
 {
   "title": "Gonzalo Beviglia",
   "description": "Gonzalo Beviglia's personal portfolio. Senior Front End Engineer living in the Netherlands. Focusing on the React stack",
-  "noscript": "I am using javascript for this site. Please enable javascript to view this site properly :)"
+  "image": "https://res.cloudinary.com/djnwqprgb/image/upload/v1545925100/portfolio.jpg",
+  "imageAlt": "Gonzalo Beviglia's personal portfolio",
+  "url": "https://gonchub.netlify.com",
+  "type": "profile"
 }
