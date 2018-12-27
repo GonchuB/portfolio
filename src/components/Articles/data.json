@@ -1,0 +1,35 @@
+{
+  "title": "Articles",
+  "articles": [
+    {
+      "title": "Something to thunk about...",
+      "date": "Nov 2018",
+      "uri": "https://medium.com/@gonchub/something-to-thunk-about-d563660e43b2"
+    },
+    {
+      "title": "Reimplementing React hooks",
+      "date": "Nov 2018",
+      "uri": "https://medium.com/@gonchub/reimplementing-react-hooks-9032a6909538"
+    },
+    {
+      "title": "Investing in your team: communal growth",
+      "date": "Oct 2018",
+      "uri": "https://medium.com/@gonchub/investing-in-your-team-communal-growth-885e8e07e1de"
+    },
+    {
+      "title": "Leveraging the human factor: team size",
+      "date": "Oct 2018",
+      "uri": "https://medium.com/@gonchub/leveraging-the-human-factor-team-size-255c8ff886b"
+    },
+    {
+      "title": "From individual contributor to engineering manager: own your education",
+      "date": "Oct 2018",
+      "uri": "https://medium.com/@gonchub/from-individual-contributor-to-engineering-manager-own-your-education-5ee7ab48f1ab"
+    },
+    {
+      "title": "Pushing for good software quality",
+      "date": "Oct 2018",
+      "uri": "https://medium.com/@gonchub/pushing-for-good-software-quality-900d08598a50"
+    }
+  ]
+}

@@ -3,11 +3,11 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import data from './data.json';
 
-const Hackathons = ({ data: { title, jobs } }) => (
+const Hackathons = ({ data: { title, hackathons } }) => (
   <section id="hackathons">
     <h2>{title}</h2>
 
-    {jobs.map(({ title, host, date, description }, index) => (
+    {hackathons.map(({ title, host, date, description }, index) => (
       <React.Fragment key={title}>
         {index !== 0 && <hr />}
         <article>
